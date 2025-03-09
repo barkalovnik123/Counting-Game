@@ -1,0 +1,26 @@
+{
+  "name": "counting-game",
+  "version": "1.0.0",
+  "description": "The game where you should find all numbers in the right order",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo it works"
+  },
+  "keywords": [
+    "react",
+    "node",
+    "js",
+    "javascript",
+    "count"
+  ],
+  "author": "barkalovnik",
+  "license": "ISC",
+  "dependencies": {
+    "sweetalert": "^2.1.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.10",
+    "@babel/preset-react": "^7.18.6"
+  }
+}

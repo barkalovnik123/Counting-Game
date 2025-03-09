@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.timeLabel {
+    font-size: 2.5rem;
+}
+.time {
+    font-size: 3rem;
+}
+
+.gameBtn {
+    font-size: 3.5rem;
+
+    --min-size: 80px;
+    min-width: var(--min-size);
+    min-height: var(--min-size);
+    width: 6vw;
+    height: 6vw;
+
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.815);
+
+    transition: 0.3s;
+}
+
+.gameBtnClickable:hover {
+    transition: 0.25s;
+    filter: saturate(1%);
+    background-color: rgba(197, 195, 195, 0.616);
+    cursor: pointer;
+}
+
+.transparent-text {
+    transition: 1s;
+    opacity: 0;
+}
+
+.gameCell {
+    border: 1px solid white;
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#window div {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#window div button {
+    min-width: 50vw;
+    min-height: 50vh;
+    font-size: 5rem;
+}
+
+body {
+    color-scheme: dark;
+    background-color: black;
+}
+
+@media only screen and (orientation: portrait) {
+    .gameBtn {
+        width: 19vw;
+        height: 19vw;
+    }
+}
+
+/* swal окошко */
+.swal-modal {
+    background-color: black;
+    box-shadow: 0 0 1px white;
+}
+.swal-title {
+    color:rgba(239, 255, 247, 0.616);
+}
+.swal-text {
+    color:rgba(239, 255, 247, 0.616);
+}
+
+.swal-icon--success:after, .swal-icon--success:before, .swal-icon--success__hide-corners {
+	background-color: #000;
+}
